@@ -1,0 +1,40 @@
+.input-form{
+    align-items:center;
+    margin: auto;
+    display: flex;
+    width: auto;
+    margin: 20px;
+    font-size: 0.65em;
+    
+}
+
+.select-box{
+    display: inline;
+    width: 15vw;
+    margin: 1em;
+
+}
+
+.input-search{
+    display: inline;
+    width: 25vw;
+    margin: 1em;
+    font-size: inherit;
+    border-color: var(--cor-primaria);
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    padding: 6px;
+
+
+    
+}
+
+.input-search :active{
+
+    border-color: #2684ff;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+}
