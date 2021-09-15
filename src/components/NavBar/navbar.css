@@ -32,7 +32,15 @@
 }
 
 .cabecalho__logo {
-    width: 3rem;
+    width: 21rem;
+    justify-self: flex-end;
+    position: static;
+
+
+    grid-area: menu;
+
+
+
 }
 
 .cabecalho__titulo {
@@ -152,8 +160,9 @@
     }
 
     .menu-itens {
-        display: flex;
+        display: inline-flex;
         align-items: center;
+
     }
 
     .menu-item {

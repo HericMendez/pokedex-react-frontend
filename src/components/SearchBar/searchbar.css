@@ -10,14 +10,14 @@
 
 .select-box{
     display: inline;
-    width: 15vw;
+    width: inherit;
     margin: 1em;
 
 }
 
 .input-search{
     display: inline;
-    width: 25vw;
+    width: inherit;
     margin: 1em;
     font-size: inherit;
     border-color: var(--cor-primaria);

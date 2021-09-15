@@ -17,11 +17,16 @@ const Sobre = () => {
         <article className="cartao post">
           <p className="flex flex--centro">
 
-Pokédex-React-Node is a project developed for educational purposes, with the objective of learning and applying the React.js and Node.js technologies.
+PokeNodeJs(formerly named Pokédex-React-Node) is a project developed for educational purposes, with the objective of learning and applying the React.js, Node.js and database storage technologies.
           </p>
-          <br></br>
+          <br/>
+          <h5>Github links:</h5>
+          <br/>
           <p>
-           <a className="red" target='_blank' rel='noreferrer' href='https://github.com/HericMendez/Pokedex_React_Node/tree/save-point'><strong>Link to the Github repository</strong></a>
+          <a className="red" target='_blank' rel='noreferrer' href='https://github.com/HericMendez/pokedex-react-frontend'><strong>React.js Front-end Page</strong></a>
+          </p>
+          <p>
+           <a className="blue" target='_blank' rel='noreferrer' href='https://github.com/HericMendez/pokedex-nodejs-api'><strong>Node.js/SQLite3 Back-end API</strong></a>
           </p>
           <br></br>
   
